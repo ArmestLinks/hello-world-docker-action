@@ -1,3 +1,5 @@
-FROM nginx:1.19-alpine
+FROM alpine:3.10
 
-ADD index.html /usr/share/nginx/html
+COPY entrypoint.sh /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
