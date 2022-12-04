@@ -17,10 +17,8 @@ La fecha en la que te salude
 ## Example
 
 ```
-uses: pablokbs/hello-world-docker-actions@v1
+uses: armestlinks/hello-world-docker-actions@v1
 with:
-  who-to-greet: 'Pelades'
+  who-to-greet: 'Nordics'
 ```
-# hello-world-docker-action
-# hello-world-docker-action
 # hello-world-docker-action
